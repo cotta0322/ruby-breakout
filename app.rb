@@ -1,16 +1,5 @@
 # frozen_string_literal: true
 
-require 'gosu'
+require './src/window'
 
-class Tutorial < Gosu::Window
-  def initialize
-    super 640, 480
-    self.caption = 'Tutorial Game'
-  end
-
-  def update; end
-
-  def draw; end
-end
-
-Tutorial.new.show
+Window.new.show
