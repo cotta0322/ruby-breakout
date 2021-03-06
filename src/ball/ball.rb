@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require './src/circle'
+require './src/ball/circle'
 
+# ボールクラス
 class Ball
   attr_reader :x, :y, :previous_x, :previous_y
 

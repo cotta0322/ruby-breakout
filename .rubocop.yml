@@ -1,0 +1,8 @@
+AsciiComments:
+  Enabled: false
+
+MethodParameterName:
+  Enabled: false
+
+PredicateName:
+  Enabled: false
